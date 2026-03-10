@@ -1,4 +1,5 @@
 package tests;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 
@@ -36,11 +37,11 @@ public class ElementsTest extends BaseTest {
         
         //--country--
         
-        elementsPage.selectCountry("India");
+        String country = elementsPage.selectCountry("India");
+        Assert.assertEquals(country, "India");
         //--color--
 		
-		ElementsPage pageTest= new ElementsPage(driver);
-		String sel=pageTest.selectColor("Green");
+        String sel = elementsPage.selectColor("Green");
 		System.out.println(sel);
 		
 		
@@ -54,13 +55,18 @@ public class ElementsTest extends BaseTest {
 		
 		
 		elementsPage.RangeDate("09-03-2026", "12-03-2026");
+		String msg = driver.findElement(By.id("result")).getText();
+
+		Assert.assertFalse(msg.contains("End date must be after start date."),
+		        "Test Failed: Error message appeared");
 		
 		elementsPage.SingFile();
 		elementsPage.Multifile();
 		
 		//--tables--
 		
-		elementsPage.verifyTableSize();
+		Assert.assertEquals(elementsPage.getRowCount(),7);
+		Assert.assertEquals(elementsPage.getColumnCount(),4);
 		
 		
 		String ChCpu=elementsPage.getDynamicValue("Chrome","CPU (%)");
@@ -68,9 +74,10 @@ public class ElementsTest extends BaseTest {
 		
 		// -- Pagination Table --
 	    
-	    elementsPage.searchInPaginationTable("Product 15");
 	    
-	    System.out.println("Successfully selected Product 15 from the pagination table.");
+	    
+		boolean found = elementsPage.searchInPaginationTable("Desktop Computer");
+		Assert.assertTrue(found, "Product 15 not found in pagination table");
 		
 	 // -- Shadow DOM Testing --
 	    

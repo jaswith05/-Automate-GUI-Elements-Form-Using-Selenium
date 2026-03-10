@@ -20,7 +20,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import org.testng.Assert;
+
 
 
 
@@ -148,13 +148,12 @@ public class ElementsPage {
 	    @FindBy(id="animals")
 	    WebElement animalsDropdown;
 	    
-	    public void selectCountry(String countryName) {
+	    public String selectCountry(String countryName) {
 
 	        Select select = new Select(countryDropdown);
 	        select.selectByVisibleText(countryName);
-	        String con=select.getFirstSelectedOption().getText();
-	        Assert.assertEquals(con,countryName);
 
+	        return select.getFirstSelectedOption().getText();
 	    }
 	    
 	    public String selectColor(String colorName) {
@@ -167,15 +166,12 @@ public class ElementsPage {
 
 	    }
 	    
-	    public void selectAnimal(String animalName) {
+	    public String selectAnimal(String animalName) {
 
 	        Select select = new Select(animalsDropdown);
 	        select.selectByVisibleText(animalName);
-	        String ani=select.getFirstSelectedOption().getText();
-	        Assert.assertEquals(ani,animalName);
-	       
 
-
+	        return select.getFirstSelectedOption().getText();
 	    }
 	    
 	    //---Date pickers---
@@ -262,6 +258,7 @@ public class ElementsPage {
 	    WebElement resultText;
 	    
 	    public void RangeDate(String start, String end) throws InterruptedException {
+
 	        JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	        String[] startParts = start.split("-");
@@ -274,16 +271,12 @@ public class ElementsPage {
 	        js.executeScript("arguments[0].value = arguments[1];", endDate, formattedEnd);
 
 	        submit.click();
-	        
+
 	        try {
-	            Thread.sleep(2000); 
+	            Thread.sleep(2000);
 	        } catch (InterruptedException e) {
 	            e.printStackTrace();
 	        }
-
-	        String msg = resultText.getText();
-	        Assert.assertFalse(msg.contains("End date must be after start date."), 
-	            "Test Failed: The error message appeared: " + msg);
 	    }
 	    //---Fileupload---
 	    
@@ -322,13 +315,12 @@ public class ElementsPage {
 	    @FindBy(xpath="//table[@name='BookTable']//th")
 	    List<WebElement> cols;
 	    
-	    public void verifyTableSize() {
-	        
-	        System.out.println("Total Rows found: " + rows.size()); 
-	        System.out.println("Total Columns found: " + cols.size()); 
+	    public int getRowCount() {
+	        return rows.size();
+	    }
 
-	        Assert.assertEquals(rows.size(), 7, "Row count mismatch!");
-	        Assert.assertEquals(cols.size(), 4, "Column count mismatch!");
+	    public int getColumnCount() {
+	        return cols.size();
 	    }
 	    
 	    //-dynamic web table---
@@ -346,7 +338,7 @@ public class ElementsPage {
 	        }
 
 	        if (colIndex == -1) {
-	            Assert.fail("Could not find a column named: " + columnName);
+	            throw new RuntimeException("Column not found: " + columnName);
 	        }
 
 	        String cellXPath = "//table[@id='taskTable']//tr[td[text()='" + processName + "']]/td[" + colIndex + "]";
@@ -358,11 +350,24 @@ public class ElementsPage {
 	    List<WebElement> paginationLinks;
 	    
 	    public boolean searchInPaginationTable(String itemName) {
+
 	        for (int i = 1; i <= paginationLinks.size(); i++) {
+
 	            driver.findElement(By.xpath("//ul[@id='pagination']//a[text()='" + i + "']")).click();
-	            List<WebElement> elements = driver.findElements(By.xpath("//table[@id='productTable']//td[text()='" + itemName + "']"));
-	            if (elements.size() > 0) return true;
+
+	            try {
+	                Thread.sleep(500);   // small wait for table update
+	            } catch (InterruptedException e) {
+	                e.printStackTrace();
+	            }
+
+	            List<WebElement> elements =
+	                    driver.findElements(By.xpath("//table[@id='productTable']//td[text()='" + itemName + "']"));
+
+	            if (elements.size() > 0)
+	                return true;
 	        }
+
 	        return false;
 	    }
 	    
