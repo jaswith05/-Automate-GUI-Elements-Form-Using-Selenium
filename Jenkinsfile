@@ -2,31 +2,31 @@ pipeline {
     agent any
 
     tools {
-        jdk 'JDK_17'
+        jdk 'JDK_25'
         maven 'Maven_3.9'
     }
 
     stages {
 
-        stage('Checkout Code') {
+        stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/jaswith05/-Automate-GUI-Elements-Form-Using-Selenium.git'
             }
         }
 
-        stage('Build Project') {
+        stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
-        stage('Run Selenium Tests') {
+        stage('Run Tests') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
-        stage('Publish Test Results') {
+        stage('Publish Results') {
             steps {
                 junit '**/target/surefire-reports/*.xml'
             }
@@ -37,6 +37,5 @@ pipeline {
                 archiveArtifacts artifacts: 'screenshots/*.png', allowEmptyArchive: true
             }
         }
-
     }
 }
