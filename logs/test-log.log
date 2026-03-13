@@ -1,0 +1,356 @@
+2026-03-13 13:14:03 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ACER\eclipse-workspace\Project_UseCase\testng.xml
+
+2026-03-13 13:14:03 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 13:14:03 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ACER\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 13:14:10 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:10 INFO  tests.ElementsTest - STARTING TEST: PERSONAL INFORMATION SECTION
+2026-03-13 13:14:10 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:11 INFO  tests.ElementsTest - PERSONAL INFORMATION TEST COMPLETED SUCCESSFULLY
+2026-03-13 13:14:11 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:11 INFO  tests.ElementsTest - STARTING TEST: SCROLLING SECTION
+2026-03-13 13:14:11 INFO  tests.ElementsTest - SCROLL COMPLETED
+2026-03-13 13:14:11 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:11 INFO  tests.ElementsTest - STARTING TEST: GENDER SELECTION
+2026-03-13 13:14:11 INFO  tests.ElementsTest - GENDER SELECTION TEST COMPLETED
+2026-03-13 13:14:11 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:11 INFO  tests.ElementsTest - STARTING TEST: DAY CHECKBOX SELECTION
+2026-03-13 13:14:12 INFO  tests.ElementsTest - DAY CHECKBOX TEST COMPLETED
+2026-03-13 13:14:12 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:12 INFO  tests.ElementsTest - STARTING TEST: COUNTRY DROPDOWN
+2026-03-13 13:14:12 INFO  tests.ElementsTest - COUNTRY DROPDOWN TEST COMPLETED
+2026-03-13 13:14:12 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:12 INFO  tests.ElementsTest - STARTING TEST: COLOR DROPDOWN
+2026-03-13 13:14:13 INFO  tests.ElementsTest - Selected Color: Green
+2026-03-13 13:14:13 INFO  tests.ElementsTest - COLOR DROPDOWN TEST COMPLETED
+2026-03-13 13:14:13 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:13 INFO  tests.ElementsTest - STARTING TEST: DATE PICKERS
+2026-03-13 13:14:19 INFO  tests.ElementsTest - DATE PICKER TEST COMPLETED
+2026-03-13 13:14:19 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:19 INFO  tests.ElementsTest - STARTING TEST: DATE RANGE VALIDATION
+2026-03-13 13:14:21 INFO  tests.ElementsTest - DATE RANGE TEST COMPLETED
+2026-03-13 13:14:21 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:21 INFO  tests.ElementsTest - STARTING TEST: FILE UPLOAD
+2026-03-13 13:14:22 INFO  tests.ElementsTest - FILE UPLOAD TEST COMPLETED
+2026-03-13 13:14:22 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:22 INFO  tests.ElementsTest - STARTING TEST: STATIC TABLE
+2026-03-13 13:14:22 INFO  tests.ElementsTest - STATIC TABLE TEST COMPLETED
+2026-03-13 13:14:22 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:22 INFO  tests.ElementsTest - STARTING TEST: DYNAMIC TABLE
+2026-03-13 13:14:22 INFO  tests.ElementsTest - DYNAMIC TABLE TEST COMPLETED
+2026-03-13 13:14:22 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:22 INFO  tests.ElementsTest - STARTING TEST: PAGINATION TABLE
+2026-03-13 13:14:24 INFO  tests.ElementsTest - PAGINATION TABLE TEST COMPLETED
+2026-03-13 13:14:24 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:24 INFO  tests.ElementsTest - STARTING TEST: SHADOW DOM
+2026-03-13 13:14:25 INFO  tests.ElementsTest - SHADOW DOM TEST COMPLETED
+2026-03-13 13:14:25 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:25 INFO  tests.ElementsTest - STARTING TEST: DYNAMIC BUTTON
+2026-03-13 13:14:25 INFO  tests.ElementsTest - DYNAMIC BUTTON TEST COMPLETED
+2026-03-13 13:14:25 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:25 INFO  tests.ElementsTest - STARTING TEST: ALERT POPUPS
+2026-03-13 13:14:25 INFO  tests.ElementsTest - ALERT POPUP TEST COMPLETED
+2026-03-13 13:14:25 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:25 INFO  tests.ElementsTest - STARTING TEST: NEW TAB
+2026-03-13 13:14:29 INFO  tests.ElementsTest - NEW TAB TEST COMPLETED
+2026-03-13 13:14:29 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:29 INFO  tests.ElementsTest - STARTING TEST: POPUP WINDOW
+2026-03-13 13:14:32 INFO  tests.ElementsTest - POPUP WINDOW TEST COMPLETED
+2026-03-13 13:14:32 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:32 INFO  tests.ElementsTest - STARTING TEST: MOUSE HOVER
+2026-03-13 13:14:32 INFO  tests.ElementsTest - MOUSE HOVER TEST COMPLETED
+2026-03-13 13:14:32 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:32 INFO  tests.ElementsTest - STARTING TEST: DOUBLE CLICK
+2026-03-13 13:14:32 INFO  tests.ElementsTest - DOUBLE CLICK TEST COMPLETED
+2026-03-13 13:14:32 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:32 INFO  tests.ElementsTest - STARTING TEST: DRAG AND DROP
+2026-03-13 13:14:33 INFO  tests.ElementsTest - DRAG AND DROP TEST COMPLETED
+2026-03-13 13:14:33 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:33 INFO  tests.ElementsTest - STARTING TEST: SLIDER
+2026-03-13 13:14:33 INFO  tests.ElementsTest - SLIDER TEST COMPLETED
+2026-03-13 13:14:33 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:33 INFO  tests.ElementsTest - STARTING TEST: SCROLLING DROPDOWN
+2026-03-13 13:14:34 INFO  tests.ElementsTest - SCROLLING DROPDOWN TEST COMPLETED
+2026-03-13 13:14:34 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:34 INFO  tests.ElementsTest - STARTING TEST: MOBILE LABELS
+2026-03-13 13:14:34 INFO  tests.ElementsTest - MOBILE LABELS TEST COMPLETED
+2026-03-13 13:14:34 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:34 INFO  tests.ElementsTest - STARTING TEST: LAPTOP LINKS
+2026-03-13 13:14:42 INFO  tests.ElementsTest - LAPTOP LINKS TEST COMPLETED
+2026-03-13 13:14:42 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:42 INFO  tests.ElementsTest - STARTING TEST: BROKEN LINKS
+2026-03-13 13:14:49 INFO  tests.ElementsTest - BROKEN LINK TEST COMPLETED
+2026-03-13 13:14:49 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:14:49 INFO  tests.ElementsTest - ALL TESTS EXECUTED SUCCESSFULLY
+2026-03-13 13:25:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ACER\eclipse-workspace\Project_UseCase\testng.xml
+
+2026-03-13 13:25:23 INFO  base.BaseTest - ===================================================
+2026-03-13 13:25:23 INFO  base.BaseTest - STARTING BROWSER SETUP
+2026-03-13 13:25:23 INFO  base.BaseTest - ===================================================
+2026-03-13 13:25:24 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 13:25:24 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ACER\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 13:25:30 INFO  base.BaseTest - Browser launched successfully
+2026-03-13 13:25:30 INFO  base.BaseTest - Navigated to Test Automation Practice website
+2026-03-13 13:25:30 INFO  base.BaseTest - ===================================================
+2026-03-13 13:25:30 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:30 INFO  tests.ElementsTest - STARTING TEST: PERSONAL INFORMATION SECTION
+2026-03-13 13:25:30 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:31 INFO  tests.ElementsTest - PERSONAL INFORMATION TEST COMPLETED SUCCESSFULLY
+2026-03-13 13:25:31 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:31 INFO  tests.ElementsTest - STARTING TEST: SCROLLING SECTION
+2026-03-13 13:25:31 INFO  tests.ElementsTest - SCROLL COMPLETED
+2026-03-13 13:25:31 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:31 INFO  tests.ElementsTest - STARTING TEST: GENDER SELECTION
+2026-03-13 13:25:32 INFO  tests.ElementsTest - GENDER SELECTION TEST COMPLETED
+2026-03-13 13:25:32 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:32 INFO  tests.ElementsTest - STARTING TEST: DAY CHECKBOX SELECTION
+2026-03-13 13:25:32 INFO  tests.ElementsTest - DAY CHECKBOX TEST COMPLETED
+2026-03-13 13:25:32 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:32 INFO  tests.ElementsTest - STARTING TEST: COUNTRY DROPDOWN
+2026-03-13 13:25:33 INFO  tests.ElementsTest - COUNTRY DROPDOWN TEST COMPLETED
+2026-03-13 13:25:33 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:33 INFO  tests.ElementsTest - STARTING TEST: COLOR DROPDOWN
+2026-03-13 13:25:33 INFO  tests.ElementsTest - Selected Color: Green
+2026-03-13 13:25:33 INFO  tests.ElementsTest - COLOR DROPDOWN TEST COMPLETED
+2026-03-13 13:25:33 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:33 INFO  tests.ElementsTest - STARTING TEST: DATE PICKERS
+2026-03-13 13:25:39 INFO  tests.ElementsTest - DATE PICKER TEST COMPLETED
+2026-03-13 13:25:39 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:39 INFO  tests.ElementsTest - STARTING TEST: DATE RANGE VALIDATION
+2026-03-13 13:25:42 INFO  tests.ElementsTest - DATE RANGE TEST COMPLETED
+2026-03-13 13:25:42 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:42 INFO  tests.ElementsTest - STARTING TEST: FILE UPLOAD
+2026-03-13 13:25:42 INFO  tests.ElementsTest - FILE UPLOAD TEST COMPLETED
+2026-03-13 13:25:42 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:42 INFO  tests.ElementsTest - STARTING TEST: STATIC TABLE
+2026-03-13 13:25:42 INFO  tests.ElementsTest - STATIC TABLE TEST COMPLETED
+2026-03-13 13:25:42 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:42 INFO  tests.ElementsTest - STARTING TEST: DYNAMIC TABLE
+2026-03-13 13:25:43 INFO  tests.ElementsTest - DYNAMIC TABLE TEST COMPLETED
+2026-03-13 13:25:43 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:25:43 INFO  tests.ElementsTest - STARTING TEST: PAGINATION TABLE
+2026-03-13 13:26:05 INFO  tests.ElementsTest - PAGINATION TABLE TEST COMPLETED
+2026-03-13 13:26:05 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:05 INFO  tests.ElementsTest - STARTING TEST: SHADOW DOM
+2026-03-13 13:26:05 INFO  tests.ElementsTest - SHADOW DOM TEST COMPLETED
+2026-03-13 13:26:05 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:05 INFO  tests.ElementsTest - STARTING TEST: DYNAMIC BUTTON
+2026-03-13 13:26:05 INFO  tests.ElementsTest - DYNAMIC BUTTON TEST COMPLETED
+2026-03-13 13:26:05 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:05 INFO  tests.ElementsTest - STARTING TEST: ALERT POPUPS
+2026-03-13 13:26:05 INFO  tests.ElementsTest - ALERT POPUP TEST COMPLETED
+2026-03-13 13:26:05 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:05 INFO  tests.ElementsTest - STARTING TEST: NEW TAB
+2026-03-13 13:26:09 INFO  tests.ElementsTest - NEW TAB TEST COMPLETED
+2026-03-13 13:26:09 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:09 INFO  tests.ElementsTest - STARTING TEST: POPUP WINDOW
+2026-03-13 13:26:10 INFO  tests.ElementsTest - POPUP WINDOW TEST COMPLETED
+2026-03-13 13:26:10 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:10 INFO  tests.ElementsTest - STARTING TEST: MOUSE HOVER
+2026-03-13 13:26:10 INFO  tests.ElementsTest - MOUSE HOVER TEST COMPLETED
+2026-03-13 13:26:10 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:10 INFO  tests.ElementsTest - STARTING TEST: DOUBLE CLICK
+2026-03-13 13:26:10 INFO  tests.ElementsTest - DOUBLE CLICK TEST COMPLETED
+2026-03-13 13:26:10 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:10 INFO  tests.ElementsTest - STARTING TEST: DRAG AND DROP
+2026-03-13 13:26:11 INFO  tests.ElementsTest - DRAG AND DROP TEST COMPLETED
+2026-03-13 13:26:11 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:11 INFO  tests.ElementsTest - STARTING TEST: SLIDER
+2026-03-13 13:26:12 INFO  tests.ElementsTest - SLIDER TEST COMPLETED
+2026-03-13 13:26:12 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:12 INFO  tests.ElementsTest - STARTING TEST: SCROLLING DROPDOWN
+2026-03-13 13:26:12 INFO  tests.ElementsTest - SCROLLING DROPDOWN TEST COMPLETED
+2026-03-13 13:26:12 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:12 INFO  tests.ElementsTest - STARTING TEST: MOBILE LABELS
+2026-03-13 13:26:12 INFO  tests.ElementsTest - MOBILE LABELS TEST COMPLETED
+2026-03-13 13:26:12 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:12 INFO  tests.ElementsTest - STARTING TEST: LAPTOP LINKS
+2026-03-13 13:26:20 INFO  tests.ElementsTest - LAPTOP LINKS TEST COMPLETED
+2026-03-13 13:26:20 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:20 INFO  tests.ElementsTest - STARTING TEST: BROKEN LINKS
+2026-03-13 13:26:25 INFO  tests.ElementsTest - BROKEN LINK TEST COMPLETED
+2026-03-13 13:26:25 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:26:25 INFO  tests.ElementsTest - ALL TESTS EXECUTED SUCCESSFULLY
+2026-03-13 13:26:25 INFO  base.BaseTest - ===================================================
+2026-03-13 13:26:25 INFO  base.BaseTest - CLOSING BROWSER
+2026-03-13 13:26:25 INFO  base.BaseTest - ===================================================
+2026-03-13 13:26:26 INFO  base.BaseTest - Browser closed successfully
+2026-03-13 13:26:26 INFO  base.BaseTest - ===================================================
+2026-03-13 13:27:38 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ACER\eclipse-workspace\Project_UseCase\testng.xml
+
+2026-03-13 13:27:38 INFO  base.BaseTest - ===================================================
+2026-03-13 13:27:38 INFO  base.BaseTest - STARTING BROWSER SETUP
+2026-03-13 13:27:38 INFO  base.BaseTest - ===================================================
+2026-03-13 13:27:39 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 13:27:39 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ACER\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 13:27:43 INFO  base.BaseTest - Browser launched successfully
+2026-03-13 13:27:43 INFO  base.BaseTest - Navigated to Test Automation Practice website
+2026-03-13 13:27:43 INFO  base.BaseTest - ===================================================
+2026-03-13 13:27:44 INFO  base.BaseTest - ===================================================
+2026-03-13 13:27:44 INFO  base.BaseTest - CLOSING BROWSER
+2026-03-13 13:27:44 INFO  base.BaseTest - ===================================================
+2026-03-13 13:27:44 INFO  base.BaseTest - Browser closed successfully
+2026-03-13 13:27:44 INFO  base.BaseTest - ===================================================
+2026-03-13 13:32:50 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ACER\eclipse-workspace\Project_UseCase\testng.xml
+
+2026-03-13 13:32:50 INFO  base.BaseTest - ===================================================
+2026-03-13 13:32:50 INFO  base.BaseTest - STARTING BROWSER SETUP
+2026-03-13 13:32:50 INFO  base.BaseTest - ===================================================
+2026-03-13 13:32:50 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 13:32:50 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ACER\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 13:32:57 INFO  base.BaseTest - Browser launched successfully
+2026-03-13 13:32:57 INFO  base.BaseTest - Navigated to Test Automation Practice website
+2026-03-13 13:32:57 INFO  base.BaseTest - ===================================================
+2026-03-13 13:32:57 INFO  base.BaseTest - ===================================================
+2026-03-13 13:32:57 INFO  base.BaseTest - CLOSING BROWSER
+2026-03-13 13:32:57 INFO  base.BaseTest - ===================================================
+2026-03-13 13:32:58 INFO  base.BaseTest - Browser closed successfully
+2026-03-13 13:32:58 INFO  base.BaseTest - ===================================================
+2026-03-13 13:33:37 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ACER\eclipse-workspace\Project_UseCase\testng.xml
+
+2026-03-13 13:33:37 INFO  base.BaseTest - ===================================================
+2026-03-13 13:33:37 INFO  base.BaseTest - STARTING BROWSER SETUP
+2026-03-13 13:33:37 INFO  base.BaseTest - ===================================================
+2026-03-13 13:33:37 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 13:33:37 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ACER\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 13:33:44 INFO  base.BaseTest - Browser launched successfully
+2026-03-13 13:33:44 INFO  base.BaseTest - Navigated to Test Automation Practice website
+2026-03-13 13:33:44 INFO  base.BaseTest - ===================================================
+2026-03-13 13:33:44 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:44 INFO  tests.ElementsTest - STARTING TEST: PERSONAL INFORMATION SECTION
+2026-03-13 13:33:44 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:45 INFO  tests.ElementsTest - PERSONAL INFORMATION TEST COMPLETED SUCCESSFULLY
+2026-03-13 13:33:45 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:45 INFO  tests.ElementsTest - STARTING TEST: SCROLLING SECTION
+2026-03-13 13:33:45 INFO  tests.ElementsTest - SCROLL COMPLETED
+2026-03-13 13:33:45 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:45 INFO  tests.ElementsTest - STARTING TEST: GENDER SELECTION
+2026-03-13 13:33:45 INFO  tests.ElementsTest - GENDER SELECTION TEST COMPLETED
+2026-03-13 13:33:45 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:45 INFO  tests.ElementsTest - STARTING TEST: DAY CHECKBOX SELECTION
+2026-03-13 13:33:45 INFO  tests.ElementsTest - DAY CHECKBOX TEST COMPLETED
+2026-03-13 13:33:45 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:45 INFO  tests.ElementsTest - STARTING TEST: COUNTRY DROPDOWN
+2026-03-13 13:33:46 INFO  tests.ElementsTest - COUNTRY DROPDOWN TEST COMPLETED
+2026-03-13 13:33:46 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:46 INFO  tests.ElementsTest - STARTING TEST: COLOR DROPDOWN
+2026-03-13 13:33:46 INFO  tests.ElementsTest - Selected Color: Green
+2026-03-13 13:33:46 INFO  tests.ElementsTest - COLOR DROPDOWN TEST COMPLETED
+2026-03-13 13:33:46 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:46 INFO  tests.ElementsTest - STARTING TEST: DATE PICKERS
+2026-03-13 13:33:53 INFO  tests.ElementsTest - DATE PICKER TEST COMPLETED
+2026-03-13 13:33:53 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:53 INFO  tests.ElementsTest - STARTING TEST: DATE RANGE VALIDATION
+2026-03-13 13:33:55 INFO  tests.ElementsTest - DATE RANGE TEST COMPLETED
+2026-03-13 13:33:55 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:55 INFO  tests.ElementsTest - STARTING TEST: FILE UPLOAD
+2026-03-13 13:33:56 INFO  tests.ElementsTest - FILE UPLOAD TEST COMPLETED
+2026-03-13 13:33:56 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:56 INFO  tests.ElementsTest - STARTING TEST: STATIC TABLE
+2026-03-13 13:33:56 INFO  tests.ElementsTest - STATIC TABLE TEST COMPLETED
+2026-03-13 13:33:56 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:56 INFO  tests.ElementsTest - STARTING TEST: DYNAMIC TABLE
+2026-03-13 13:33:56 INFO  tests.ElementsTest - DYNAMIC TABLE TEST COMPLETED
+2026-03-13 13:33:56 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:33:56 INFO  tests.ElementsTest - STARTING TEST: PAGINATION TABLE
+2026-03-13 13:34:18 INFO  base.BaseTest - ===================================================
+2026-03-13 13:34:18 INFO  base.BaseTest - CLOSING BROWSER
+2026-03-13 13:34:18 INFO  base.BaseTest - ===================================================
+2026-03-13 13:34:18 INFO  base.BaseTest - Browser closed successfully
+2026-03-13 13:34:18 INFO  base.BaseTest - ===================================================
+2026-03-13 13:58:00 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ACER\eclipse-workspace\Project_UseCase\testng.xml
+
+2026-03-13 13:58:01 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 13:58:01 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ACER\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 13:58:06 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:58:06 INFO  tests.ElementsTest - STARTING TEST: PERSONAL INFORMATION SECTION
+2026-03-13 13:58:06 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:11 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ACER\eclipse-workspace\Project_UseCase\testng.xml
+
+2026-03-13 13:59:11 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+2026-03-13 13:59:11 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ACER\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+2026-03-13 13:59:18 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:18 INFO  tests.ElementsTest - STARTING TEST: PERSONAL INFORMATION SECTION
+2026-03-13 13:59:18 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:18 INFO  tests.ElementsTest - PERSONAL INFORMATION TEST COMPLETED SUCCESSFULLY
+2026-03-13 13:59:18 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:18 INFO  tests.ElementsTest - STARTING TEST: SCROLLING SECTION
+2026-03-13 13:59:18 INFO  tests.ElementsTest - SCROLL COMPLETED
+2026-03-13 13:59:18 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:18 INFO  tests.ElementsTest - STARTING TEST: GENDER SELECTION
+2026-03-13 13:59:19 INFO  tests.ElementsTest - GENDER SELECTION TEST COMPLETED
+2026-03-13 13:59:19 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:19 INFO  tests.ElementsTest - STARTING TEST: DAY CHECKBOX SELECTION
+2026-03-13 13:59:19 INFO  tests.ElementsTest - DAY CHECKBOX TEST COMPLETED
+2026-03-13 13:59:19 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:19 INFO  tests.ElementsTest - STARTING TEST: COUNTRY DROPDOWN
+2026-03-13 13:59:19 INFO  tests.ElementsTest - COUNTRY DROPDOWN TEST COMPLETED
+2026-03-13 13:59:19 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:19 INFO  tests.ElementsTest - STARTING TEST: COLOR DROPDOWN
+2026-03-13 13:59:19 INFO  tests.ElementsTest - Selected Color: Green
+2026-03-13 13:59:19 INFO  tests.ElementsTest - COLOR DROPDOWN TEST COMPLETED
+2026-03-13 13:59:19 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:19 INFO  tests.ElementsTest - STARTING TEST: DATE PICKERS
+2026-03-13 13:59:22 INFO  tests.ElementsTest - DATE PICKER TEST COMPLETED
+2026-03-13 13:59:22 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:22 INFO  tests.ElementsTest - STARTING TEST: DATE RANGE VALIDATION
+2026-03-13 13:59:25 INFO  tests.ElementsTest - DATE RANGE TEST COMPLETED
+2026-03-13 13:59:25 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:25 INFO  tests.ElementsTest - STARTING TEST: FILE UPLOAD
+2026-03-13 13:59:25 INFO  tests.ElementsTest - FILE UPLOAD TEST COMPLETED
+2026-03-13 13:59:25 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:25 INFO  tests.ElementsTest - STARTING TEST: STATIC TABLE
+2026-03-13 13:59:25 INFO  tests.ElementsTest - STATIC TABLE TEST COMPLETED
+2026-03-13 13:59:25 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:25 INFO  tests.ElementsTest - STARTING TEST: DYNAMIC TABLE
+2026-03-13 13:59:25 INFO  tests.ElementsTest - DYNAMIC TABLE TEST COMPLETED
+2026-03-13 13:59:25 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:25 INFO  tests.ElementsTest - STARTING TEST: PAGINATION TABLE
+2026-03-13 13:59:48 INFO  tests.ElementsTest - PAGINATION TABLE TEST COMPLETED
+2026-03-13 13:59:48 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:48 INFO  tests.ElementsTest - STARTING TEST: SHADOW DOM
+2026-03-13 13:59:48 INFO  tests.ElementsTest - SHADOW DOM TEST COMPLETED
+2026-03-13 13:59:48 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:48 INFO  tests.ElementsTest - STARTING TEST: DYNAMIC BUTTON
+2026-03-13 13:59:48 INFO  tests.ElementsTest - DYNAMIC BUTTON TEST COMPLETED
+2026-03-13 13:59:48 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:48 INFO  tests.ElementsTest - STARTING TEST: ALERT POPUPS
+2026-03-13 13:59:49 INFO  tests.ElementsTest - ALERT POPUP TEST COMPLETED
+2026-03-13 13:59:49 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:49 INFO  tests.ElementsTest - STARTING TEST: NEW TAB
+2026-03-13 13:59:52 INFO  tests.ElementsTest - NEW TAB TEST COMPLETED
+2026-03-13 13:59:52 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:52 INFO  tests.ElementsTest - STARTING TEST: POPUP WINDOW
+2026-03-13 13:59:54 INFO  tests.ElementsTest - POPUP WINDOW TEST COMPLETED
+2026-03-13 13:59:54 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:54 INFO  tests.ElementsTest - STARTING TEST: MOUSE HOVER
+2026-03-13 13:59:54 INFO  tests.ElementsTest - MOUSE HOVER TEST COMPLETED
+2026-03-13 13:59:54 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:54 INFO  tests.ElementsTest - STARTING TEST: DOUBLE CLICK
+2026-03-13 13:59:54 INFO  tests.ElementsTest - DOUBLE CLICK TEST COMPLETED
+2026-03-13 13:59:54 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:54 INFO  tests.ElementsTest - STARTING TEST: DRAG AND DROP
+2026-03-13 13:59:55 INFO  tests.ElementsTest - DRAG AND DROP TEST COMPLETED
+2026-03-13 13:59:55 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:55 INFO  tests.ElementsTest - STARTING TEST: SLIDER
+2026-03-13 13:59:55 INFO  tests.ElementsTest - SLIDER TEST COMPLETED
+2026-03-13 13:59:55 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:55 INFO  tests.ElementsTest - STARTING TEST: SCROLLING DROPDOWN
+2026-03-13 13:59:56 INFO  tests.ElementsTest - SCROLLING DROPDOWN TEST COMPLETED
+2026-03-13 13:59:56 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:56 INFO  tests.ElementsTest - STARTING TEST: MOBILE LABELS
+2026-03-13 13:59:56 INFO  tests.ElementsTest - MOBILE LABELS TEST COMPLETED
+2026-03-13 13:59:56 INFO  tests.ElementsTest - ======================================================
+2026-03-13 13:59:56 INFO  tests.ElementsTest - STARTING TEST: LAPTOP LINKS
+2026-03-13 14:00:03 INFO  tests.ElementsTest - LAPTOP LINKS TEST COMPLETED
+2026-03-13 14:00:03 INFO  tests.ElementsTest - ======================================================
+2026-03-13 14:00:03 INFO  tests.ElementsTest - STARTING TEST: BROKEN LINKS
+2026-03-13 14:00:09 INFO  tests.ElementsTest - BROKEN LINK TEST COMPLETED
+2026-03-13 14:00:09 INFO  tests.ElementsTest - ======================================================
+2026-03-13 14:00:09 INFO  tests.ElementsTest - ALL TESTS EXECUTED SUCCESSFULLY

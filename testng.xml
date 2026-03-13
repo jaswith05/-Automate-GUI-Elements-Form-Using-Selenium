@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Practice Suite">
+    
+    <test thread-count="5" name="Elements Functional Tests">
+        <classes>
+            <class name="tests.ElementsTest"/>
+        </classes>
+    </test> </suite>
+    
+  

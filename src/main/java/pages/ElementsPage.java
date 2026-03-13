@@ -1,17 +1,17 @@
 package pages;
 
 import java.net.HttpURLConnection;
+
 import java.net.URL;
-import java.time.LocalDate;
+
 import org.openqa.selenium.Alert;
 import java.time.Month;
-import java.time.format.DateTimeFormatter;
+
 import java.util.List;
 import java.util.Set;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
+
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,6 +28,8 @@ import org.openqa.selenium.support.ui.Select;
 public class ElementsPage {
 	
 	WebDriver driver;
+	
+	
 	
 	
 	
@@ -194,12 +196,16 @@ public class ElementsPage {
 	                break;
 	            }
 
-	            
+	          //--converting the months to integers--=
 	            int currentMonthNum = Month.valueOf(currentMonth.toUpperCase()).getValue();
 	            int targetMonthNum = Month.valueOf(month.toUpperCase()).getValue();
+	            
+	            //--same as years
 
 	            int currentYearNum = Integer.parseInt(currentYear);
 	            int targetYearNum = Integer.parseInt(year);
+	            
+	            //if current year and month are greater than given month and year going to previous or else next--
 
 	            if(currentYearNum > targetYearNum || 
 	               (currentYearNum == targetYearNum && currentMonthNum > targetMonthNum))
@@ -228,6 +234,8 @@ public class ElementsPage {
 
 	        Select month = new Select(monthDropdown);
 	        month.selectByVisibleText(monthValue);
+	        
+	        // clicking and performing select by visisble text--
 
 	        Select year = new Select(yearDropdown);
 	        year.selectByVisibleText(yearValue);
@@ -260,12 +268,17 @@ public class ElementsPage {
 	    public void RangeDate(String start, String end) throws InterruptedException {
 
 	        JavascriptExecutor js = (JavascriptExecutor) driver;
-
+	        
+	        // splitting the calender format accordint to the input--	
 	        String[] startParts = start.split("-");
+	        
+	        //now we store that formatted split date into an array
 	        String formattedStart = startParts[2] + "-" + startParts[1] + "-" + startParts[0];
 
 	        String[] endParts = end.split("-");
 	        String formattedEnd = endParts[2] + "-" + endParts[1] + "-" + endParts[0];
+	        
+	        // and with js script we can enter the values into required format
 
 	        js.executeScript("arguments[0].value = arguments[1];", startDate, formattedStart);
 	        js.executeScript("arguments[0].value = arguments[1];", endDate, formattedEnd);
@@ -473,6 +486,8 @@ public class ElementsPage {
 	     String parentWindow = driver.getWindowHandle();
 
 	     newtab.click();
+	     
+	     // we are using set because, there has to be only unique tabs, now duplicate tabs should be stored.
 
 	     Set<String> allWindows = driver.getWindowHandles();
 
@@ -492,6 +507,7 @@ public class ElementsPage {
 		    String parentWindow = driver.getWindowHandle();
 
 		    popups.click();
+		    
 
 		    Set<String> windows = driver.getWindowHandles();
 
@@ -608,7 +624,7 @@ public class ElementsPage {
 	 
 	 //--labels
 	 
-	 @FindBy(xpath="//div[@id='HTML18']//a")
+	 @FindBy(xpath="//div[@id='mobiles']//label")
 	 List<WebElement> mobileLabels;
 
 	 public void verifyMobileLabels() {
